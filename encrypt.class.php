@@ -1,11 +1,11 @@
 <?php
 	class encrypt {
 		protected $_cipher = "AES-128-CBC",
-							$_key,
-							$_ivlen,
-							$_iv,
-							$_options = 0,
-							$_salt = 'i010.com';
+			  $_key,
+			  $_ivlen,
+		   	  $_iv,
+			  $_options = 0,
+			  $_salt = 'i010.com';
 
 		public function __construct($privateKey) {
 			
