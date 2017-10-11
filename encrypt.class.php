@@ -5,7 +5,7 @@
 			  $_ivlen,
 		   	  $_iv,
 			  $_options = 0,
-			  $_salt = 'i010.com';
+			  $_salt = 'salt';
 
 		public function __construct($privateKey) {
 			
