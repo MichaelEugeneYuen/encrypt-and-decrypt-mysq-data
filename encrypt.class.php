@@ -35,7 +35,7 @@
   //HOW TO USE
 	$encrypt = new encrypt('private_key');
 	
-	echo 'Value to be stored to database: '. $string = $encrypt->put('michael@i010.com');
+	echo 'Value to be stored to database: '. $string = $encrypt->put('sample_text');
 	echo '<br><br>';
 	echo 'Length of encrypted = '.strlen($string).'<br>';
 	echo '<br>';
